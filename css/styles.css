@@ -1,0 +1,97 @@
+body {
+    padding: 8.5rem 3.2rem 7.8rem 3.2rem;
+    min-height: 100vh;
+}
+
+.four-card-feature-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-card-feature-section-info {
+    max-width: 54rem;
+    text-align: center;
+}
+
+.four-card-feature-section-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.card {
+    padding: 2.8rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    max-width: 28.6rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.supervisor-card {
+    border-top: 0.36rem solid hsla(180, 62%, 55%, 1);
+}
+
+.team-builder-card {
+    border-top: 0.36rem solid hsla(0, 78%, 62%, 1);
+}
+
+.karma-card {
+    border-top: 0.36rem solid hsla(34, 96%, 64%, 1);
+}
+
+.calculator-card {
+    border-top: 0.36rem solid hsla(212, 86%, 64%, 1);
+}
+
+.card img {
+    margin-top: 3.3rem;
+    float: right;
+}
+
+@media (min-width: 1175px) {
+
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .four-card-feature-section-info h1 {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+    }
+
+    .four-card-feature-section-info h2 {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+    }
+
+    .four-card-feature-section-cards {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .card {
+        max-width: 28.6rem;
+        padding: 3.2rem;
+    }
+
+    .card-wrapper {
+        gap: 3rem;
+    }
+
+    .four-card-feature-section-info p {
+        margin-bottom: 6.4rem;
+    }
+
+}
